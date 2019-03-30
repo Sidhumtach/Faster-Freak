@@ -1,0 +1,434 @@
+<html>
+    <head>
+    <title> faster freaks</title>
+    <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+    <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+  <a class="navbar-brand" href="#">FASTER FREAK'S LOGO</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<i class="fa fa-bars"></i>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item ">
+        <a class="nav-link" href="#">HOME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">PRODUCTS</a>
+      </li>
+         <li class="nav-item">
+        <a class="nav-link" href="#">SERVICES</a>
+      </li>
+     
+      <li class="nav-item">
+        <a class="nav-link " href="#" >ABOUT US</a>
+      </li>
+         <li class="nav-item">
+        <a class="nav-link " href="#" >CONTACTS</a>
+      </li>
+    </ul>
+   
+  </div>
+</nav>
+        </section>
+
+        <!--------------------------banner section---------->
+        
+ <section id ="banner">
+<div class="container">
+<div class="row">
+<div class="col-md-6">
+<p class ="promo-tittle">India's Most Loved Learning App</p> 
+    <p>Faster freaks the place to learn chance to move on. Get some interesting concepts for lower price.we provide the material with respect experienced staff as well as smart teenagers. </p>
+    <a href="#"><img src="images/play.jpg" class ="play-btn">watch Tutorials</a>
+</div>
+    <div class ="col-md-6 text-center">
+    <img src="images/play2.jpg" class="img-flag">
+    
+    </div>
+</div>
+   <img src="images/wave.png" class="wave">
+    
+</section>
+
+
+     <br>
+     <br>
+     <br>
+     
+    <section id="services">
+     <div class="container">
+         
+        <div class="row">
+         <div class="col-md-4">
+            <img src="images/img.png" class="services-img">
+    </div>
+            <div class="col-md-4">
+            <img src="images/Capture.PNG" class="dark">
+                
+    </div>
+            <div class="col-md-4">
+            <img src="images/fff.PNG" class="dhoni">
+                
+    </div>
+         
+         
+         
+         </div>
+         <button  type="button" class="btn">Explore</button>
+         <div class="col-md-4">
+            <img src="images/girl1.png" class="services-imgs">
+             
+             <h4><p class="sachin"> Mapped to the Syllabus</p> </h4>
+        </div>
+         <div class="col-md-4">
+            <img src="images/ttt.PNG" class="para-boxy">
+                
+    </div>
+         <button  type="button" class="buttonn">Explore</button>
+         
+         
+         
+         
+         <div class="col-md-4">
+            <img src="images/sing.png" class="services-imges">
+        </div>
+          <div class="col-md-4">
+            <img src="images/qqq.PNG" class="cutie">
+        </div>
+          <button  type="button" class="butto">Explore</button>
+        </div>
+      </section>
+     
+     
+      <!-------------------products---------------->
+     <section id="products">
+         <div class="container">
+             <div class="heading">
+             <h3>Course available</h3>
+             
+             
+             
+             </div>
+           
+            <div class="row">
+               
+             <div class="col-md-4">
+                
+<img src="images/one.PNG" class="one">   
+                 </div>
+                <div class="col-md-4">
+            <img src="images/two.PNG" class="ones">   
+                </div>
+                <div class="col-md-4">
+            <img src="images/three.PNG" class="three">   
+                </div>
+             
+             
+             
+             
+             
+             
+             
+             
+             </div>
+             
+        
+                
+             
+             
+             
+             
+             
+             </div>
+             
+            
+         
+         
+         
+         
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     </section>
+     
+     
+    
+    
+    
+    
+    
+    
+    </body>
+</html>
+
+--------------------css code------------------------------------
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: sans-serif;
+}
+#nav-bar
+{
+    
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar
+{
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+    padding: 0;
+    
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+    
+}
+.navbar-nav li a
+{
+    color: #fff !important;
+    font-weight: 600;
+    float: center;
+    text-align: center;
+}
+.fa-bars
+{
+    color: #fff;
+    font-size: 30px !important;
+}
+.navbar-toggler
+{
+    outline: none !important;
+}
+
+
+#banner
+{
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+    color: #fff ;
+    padding-top: 5%;
+}
+.promo-tittle
+{
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 100px;
+}
+.play-btn
+{
+    width: 45px;
+    margin: 20px;
+}
+#banner a
+{
+    color: #fff;
+    text-decoration: none;
+}
+.wave
+{
+    position: relative;
+    background:linear-gradient(to right,#a517ba,#5f1782);
+     content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 171px;
+  
+        background-size: cover;
+   
+ 
+}
+
+
+
+.img-flag
+{
+    width: 300px;
+    height: auto;
+}
+
+#services
+{
+    padding: 80px 0;
+}
+.services-img
+{
+    margin-top: 100px;
+    margin-left: 100;
+    width: 250px;
+    height: 250px;;
+}
+.dark
+{
+    margin-left: 45%;
+    margin-top: 35%;
+}
+.dhoni
+{
+    margin-top: 50%;
+    margin-left: -65%;
+    
+}
+.services-imgs
+{
+     margin-left: 175%;
+    width: 300px;
+    margin-top: 60;
+    height: 300px;;
+}
+.sachin
+{
+  margin-top: -250px;
+    margin-left: 80px;
+}
+.para-boxy
+{
+   margin-left: 25%;
+  
+}
+.buttonn
+{
+    box-shadow: none;
+    padding: 8px 25px;
+    border-radius: 20px;
+    background-image:linear-gradient(to right,#a517ba,#5f1782); 
+   margin-left: 500px;
+    margin-top: 120px;
+    font-family: sans-serif;
+     color: #fff !important;
+}
+.services-imges
+{
+    width: 280px;
+    height: 280px;
+    margin-bottom: 100;
+    margin-top: 50;
+    padding: 5px;
+    margin-left: 30;
+   
+    
+}
+.cutie
+{
+    margin-top: -92%;
+    margin-left: 150%
+}
+.butto
+{
+    box-shadow: none;
+    padding: 8px 25px;
+    border-radius: 20px;
+    background-image:linear-gradient(to right,#a517ba,#5f1782); 
+   margin-left: 500px;
+    margin-top: -30;
+    font-family: sans-serif;
+     color: #fff !important;
+}
+ #services .btn
+{
+    box-shadow: none;
+    padding: 8px 25px;
+    border-radius: 20px;
+    background-image:linear-gradient(to right,#a517ba,#5f1782); 
+   margin-left: 500px;
+    margin-top: 50;
+    font-family: sans-serif;
+     color: #fff !important;
+
+}
+
+
+
+#products
+{
+   margin-top: -75;
+
+}
+.funny
+{
+    box-shadow: none;
+    padding: 8px 25px;
+    border-radius: 50px;
+    background-image:linear-gradient(to right,#a517ba,#5f1782); 
+   margin-left: 500px;
+    margin-top: 50;
+    font-family: sans-serif;
+     color: #fff !important;
+   }
+.one
+{
+   margin-top: 5%;
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ones
+{
+  margin-top: 5%;
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;  
+}
+.three
+{
+   margin-top: 5%;
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;  
+}
+.heading
+{
+  
+    font-family: monospace;
+   padding: 50px;
+    text-align: center;
+ color: darkviolet!important;
+    table-layout: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin top:50px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
